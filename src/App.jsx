@@ -1,13 +1,13 @@
-import { useState } from "react";
 import "./App.css";
+import AfterTax from "./components/AfterTax";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
-    <>
-      <h1 className="text-5xl font-bold underline">Hello world!</h1>
-    </>
+    <section className="bg-red-100 p-6">
+      <AfterTax></AfterTax>
+      
+    </section>
   );
 }
 
