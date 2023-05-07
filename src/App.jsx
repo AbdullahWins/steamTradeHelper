@@ -1,12 +1,14 @@
 import "./App.css";
-import AfterTax from "./components/AfterTax";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Home from "./pages/Home";
 
 function App() {
-
   return (
-    <section className="bg-red-100 p-6">
-      <AfterTax></AfterTax>
-      
+    <section className="flex flex-col items-center justify-between min-h-screen w-full">
+      <Header></Header>
+      <Home></Home>
+      <Footer></Footer>
     </section>
   );
 }
